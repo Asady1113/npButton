@@ -1,0 +1,6 @@
+framework module Pods_npButton {
+  umbrella header "Pods-npButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

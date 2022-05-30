@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0A47213DE10C28AE063021 /* Pods_npButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E081DCE42B12AFF9AD537389 /* Pods_npButton.framework */; };
 		94282BBF283B77AF000DE48A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94282BBE283B77AF000DE48A /* AppDelegate.swift */; };
 		94282BC1283B77AF000DE48A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94282BC0283B77AF000DE48A /* SceneDelegate.swift */; };
 		94282BC3283B77AF000DE48A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94282BC2283B77AF000DE48A /* ViewController.swift */; };
@@ -16,6 +17,15 @@
 		94282BD6283B77B0000DE48A /* npButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94282BD5283B77B0000DE48A /* npButtonTests.swift */; };
 		94282BE0283B77B0000DE48A /* npButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94282BDF283B77B0000DE48A /* npButtonUITests.swift */; };
 		94282BE2283B77B0000DE48A /* npButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94282BE1283B77B0000DE48A /* npButtonUITestsLaunchTests.swift */; };
+		94282BF1283B80F8000DE48A /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94282BF0283B80F8000DE48A /* SignIn.storyboard */; };
+		94282BF3283B82FD000DE48A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94282BF2283B82FD000DE48A /* SignInViewController.swift */; };
+		94282BF5283B84D0000DE48A /* Teacher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94282BF4283B84D0000DE48A /* Teacher.storyboard */; };
+		94282BF7283B8528000DE48A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94282BF6283B8528000DE48A /* SignUpViewController.swift */; };
+		94BF7BA8283B88D800537F62 /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF7BA7283B88D800537F62 /* TeacherViewController.swift */; };
+		94BF7BAB283B8E0F00537F62 /* StudentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF7BAA283B8E0F00537F62 /* StudentListViewController.swift */; };
+		94BF7BAE283BDB8800537F62 /* ClassListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BF7BAD283BDB8800537F62 /* ClassListViewController.swift */; };
+		EE3FA809E6AF317F8C8E78B2 /* Pods_npButton_npButtonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A36C9AA68374DA0F0C1D4BC /* Pods_npButton_npButtonUITests.framework */; };
+		FE3F8812DA60F6B628752840 /* Pods_npButtonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860DACD325957C76A0E88B63 /* Pods_npButtonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E7ACBF5BCE04B2069FB2DE8 /* Pods-npButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-npButton.debug.xcconfig"; path = "Target Support Files/Pods-npButton/Pods-npButton.debug.xcconfig"; sourceTree = "<group>"; };
+		3FFD0F56AD550ED526674AD5 /* Pods-npButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-npButtonTests.debug.xcconfig"; path = "Target Support Files/Pods-npButtonTests/Pods-npButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A36C9AA68374DA0F0C1D4BC /* Pods_npButton_npButtonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_npButton_npButtonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		860DACD325957C76A0E88B63 /* Pods_npButtonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_npButtonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECC2019D46CC2A047EB701F /* Pods-npButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-npButton.release.xcconfig"; path = "Target Support Files/Pods-npButton/Pods-npButton.release.xcconfig"; sourceTree = "<group>"; };
 		94282BBB283B77AF000DE48A /* npButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = npButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94282BBE283B77AF000DE48A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94282BC0283B77AF000DE48A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,17 @@
 		94282BDB283B77B0000DE48A /* npButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = npButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94282BDF283B77B0000DE48A /* npButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = npButtonUITests.swift; sourceTree = "<group>"; };
 		94282BE1283B77B0000DE48A /* npButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = npButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94282BF0283B80F8000DE48A /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		94282BF2283B82FD000DE48A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		94282BF4283B84D0000DE48A /* Teacher.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Teacher.storyboard; sourceTree = "<group>"; };
+		94282BF6283B8528000DE48A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		94BF7BA7283B88D800537F62 /* TeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
+		94BF7BAA283B8E0F00537F62 /* StudentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListViewController.swift; sourceTree = "<group>"; };
+		94BF7BAD283BDB8800537F62 /* ClassListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListViewController.swift; sourceTree = "<group>"; };
+		C77AD08226F63F9503733522 /* Pods-npButton-npButtonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-npButton-npButtonUITests.debug.xcconfig"; path = "Target Support Files/Pods-npButton-npButtonUITests/Pods-npButton-npButtonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F6EC46987E2A70300C786B /* Pods-npButton-npButtonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-npButton-npButtonUITests.release.xcconfig"; path = "Target Support Files/Pods-npButton-npButtonUITests/Pods-npButton-npButtonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D866B01BC42929064BFFC53E /* Pods-npButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-npButtonTests.release.xcconfig"; path = "Target Support Files/Pods-npButtonTests/Pods-npButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		E081DCE42B12AFF9AD537389 /* Pods_npButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_npButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0A47213DE10C28AE063021 /* Pods_npButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE3F8812DA60F6B628752840 /* Pods_npButtonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3FA809E6AF317F8C8E78B2 /* Pods_npButton_npButtonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21CBCCFC527D5DA47AF55B5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E7ACBF5BCE04B2069FB2DE8 /* Pods-npButton.debug.xcconfig */,
+				8ECC2019D46CC2A047EB701F /* Pods-npButton.release.xcconfig */,
+				C77AD08226F63F9503733522 /* Pods-npButton-npButtonUITests.debug.xcconfig */,
+				D2F6EC46987E2A70300C786B /* Pods-npButton-npButtonUITests.release.xcconfig */,
+				3FFD0F56AD550ED526674AD5 /* Pods-npButtonTests.debug.xcconfig */,
+				D866B01BC42929064BFFC53E /* Pods-npButtonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72D693D433B32907615324DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E081DCE42B12AFF9AD537389 /* Pods_npButton.framework */,
+				6A36C9AA68374DA0F0C1D4BC /* Pods_npButton_npButtonUITests.framework */,
+				860DACD325957C76A0E88B63 /* Pods_npButtonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94282BB2283B77AF000DE48A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				94282BD4283B77B0000DE48A /* npButtonTests */,
 				94282BDE283B77B0000DE48A /* npButtonUITests */,
 				94282BBC283B77AF000DE48A /* Products */,
+				21CBCCFC527D5DA47AF55B5A /* Pods */,
+				72D693D433B32907615324DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +155,9 @@
 			children = (
 				94282BBE283B77AF000DE48A /* AppDelegate.swift */,
 				94282BC0283B77AF000DE48A /* SceneDelegate.swift */,
-				94282BC2283B77AF000DE48A /* ViewController.swift */,
-				94282BC4283B77AF000DE48A /* Main.storyboard */,
+				94282BF8283B872E000DE48A /* SignIn */,
+				94BF7BAC283BD64B00537F62 /* Student */,
+				94BF7BA9283B89A400537F62 /* Teacher */,
 				94282BC7283B77B0000DE48A /* Assets.xcassets */,
 				94282BC9283B77B0000DE48A /* LaunchScreen.storyboard */,
 				94282BCC283B77B0000DE48A /* Info.plist */,
@@ -127,6 +182,36 @@
 			path = npButtonUITests;
 			sourceTree = "<group>";
 		};
+		94282BF8283B872E000DE48A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				94282BF0283B80F8000DE48A /* SignIn.storyboard */,
+				94282BF6283B8528000DE48A /* SignUpViewController.swift */,
+				94282BF2283B82FD000DE48A /* SignInViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		94BF7BA9283B89A400537F62 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				94BF7BA7283B88D800537F62 /* TeacherViewController.swift */,
+				94BF7BAA283B8E0F00537F62 /* StudentListViewController.swift */,
+				94282BF4283B84D0000DE48A /* Teacher.storyboard */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		94BF7BAC283BD64B00537F62 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				94282BC2283B77AF000DE48A /* ViewController.swift */,
+				94BF7BAD283BDB8800537F62 /* ClassListViewController.swift */,
+				94282BC4283B77AF000DE48A /* Main.storyboard */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94282BE5283B77B0000DE48A /* Build configuration list for PBXNativeTarget "npButton" */;
 			buildPhases = (
+				4468F0556440FF9CB021C596 /* [CP] Check Pods Manifest.lock */,
 				94282BB7283B77AF000DE48A /* Sources */,
 				94282BB8283B77AF000DE48A /* Frameworks */,
 				94282BB9283B77AF000DE48A /* Resources */,
+				89E8F434AF1A57E62316BF9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94282BE8283B77B0000DE48A /* Build configuration list for PBXNativeTarget "npButtonTests" */;
 			buildPhases = (
+				1A3A877DAB10666A343F7C47 /* [CP] Check Pods Manifest.lock */,
 				94282BCD283B77B0000DE48A /* Sources */,
 				94282BCE283B77B0000DE48A /* Frameworks */,
 				94282BCF283B77B0000DE48A /* Resources */,
@@ -169,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94282BEB283B77B0000DE48A /* Build configuration list for PBXNativeTarget "npButtonUITests" */;
 			buildPhases = (
+				F35D007CC434F1D02DABC3EE /* [CP] Check Pods Manifest.lock */,
 				94282BD7283B77B0000DE48A /* Sources */,
 				94282BD8283B77B0000DE48A /* Frameworks */,
 				94282BD9283B77B0000DE48A /* Resources */,
+				F7D66F2CAD2912CC798FA0A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +321,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94282BF1283B80F8000DE48A /* SignIn.storyboard in Resources */,
 				94282BCB283B77B0000DE48A /* LaunchScreen.storyboard in Resources */,
+				94282BF5283B84D0000DE48A /* Teacher.storyboard in Resources */,
 				94282BC8283B77B0000DE48A /* Assets.xcassets in Resources */,
 				94282BC6283B77AF000DE48A /* Main.storyboard in Resources */,
 			);
@@ -253,14 +345,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A3A877DAB10666A343F7C47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-npButtonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4468F0556440FF9CB021C596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-npButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E8F434AF1A57E62316BF9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-npButton/Pods-npButton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-npButton/Pods-npButton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-npButton/Pods-npButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35D007CC434F1D02DABC3EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-npButton-npButtonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D66F2CAD2912CC798FA0A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-npButton-npButtonUITests/Pods-npButton-npButtonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-npButton-npButtonUITests/Pods-npButton-npButtonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-npButton-npButtonUITests/Pods-npButton-npButtonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94282BB7283B77AF000DE48A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BF7BAB283B8E0F00537F62 /* StudentListViewController.swift in Sources */,
+				94BF7BAE283BDB8800537F62 /* ClassListViewController.swift in Sources */,
+				94282BF3283B82FD000DE48A /* SignInViewController.swift in Sources */,
 				94282BC3283B77AF000DE48A /* ViewController.swift in Sources */,
 				94282BBF283B77AF000DE48A /* AppDelegate.swift in Sources */,
 				94282BC1283B77AF000DE48A /* SceneDelegate.swift in Sources */,
+				94282BF7283B8528000DE48A /* SignUpViewController.swift in Sources */,
+				94BF7BA8283B88D800537F62 /* TeacherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +632,7 @@
 		};
 		94282BE6283B77B0000DE48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7ACBF5BCE04B2069FB2DE8 /* Pods-npButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +661,7 @@
 		};
 		94282BE7283B77B0000DE48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECC2019D46CC2A047EB701F /* Pods-npButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +690,7 @@
 		};
 		94282BE9283B77B0000DE48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFD0F56AD550ED526674AD5 /* Pods-npButtonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +711,7 @@
 		};
 		94282BEA283B77B0000DE48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D866B01BC42929064BFFC53E /* Pods-npButtonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +732,7 @@
 		};
 		94282BEC283B77B0000DE48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77AD08226F63F9503733522 /* Pods-npButton-npButtonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +751,7 @@
 		};
 		94282BED283B77B0000DE48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F6EC46987E2A70300C786B /* Pods-npButton-npButtonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

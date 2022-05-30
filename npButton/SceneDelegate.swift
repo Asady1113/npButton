@@ -13,9 +13,40 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        
+        let ud = UserDefaults.standard
+        let isLogin = ud.string(forKey: "isLogin")
+        
+        
+        if isLogin == "student" {
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
+            self.window?.rootViewController = rootViewController
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            
+            
+        } else if isLogin == "teacher" {
+            
+            let storyboard = UIStoryboard(name: "Teacher", bundle: Bundle.main)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "TeacherViewController")
+            self.window?.rootViewController = rootViewController
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            
+        } else {
+            
+            let storyboard = UIStoryboard(name: "SignIn", bundle: Bundle.main)
+            let rootViewController = storyboard.instantiateViewController(withIdentifier: "SignInNavigationController")
+            self.window?.rootViewController = rootViewController
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            
+        }
+    
+        
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
